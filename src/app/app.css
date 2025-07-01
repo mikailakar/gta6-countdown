@@ -180,3 +180,38 @@
     opacity: 0.6;
   }
 }
+
+/* src/app/app.component.css */
+
+.github-link-masked {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  width: 40px;
+  height: 40px;
+  z-index: 10;
+  
+  /* 1. Set the background color to the pink we want */
+  background-color: #ff81b9;
+
+  /* 2. Use your external SVG file as a MASK */
+  mask-image: url('../assets/images/github.svg');
+  mask-size: contain;
+  mask-repeat: no-repeat;
+  mask-position: center;
+
+  /* For browsers that require the -webkit- prefix */
+  -webkit-mask-image: url('../assets/images/github.svg');
+  -webkit-mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+
+  /* Add hover effects */
+  opacity: 0.7;
+  transition: all 0.3s ease;
+}
+
+.github-link-masked:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
