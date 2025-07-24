@@ -8,7 +8,7 @@
   color: white;
   text-align: center;
   overflow: hidden;
-  background-image: url('../assets/images/background.png');
+  background-image: url('/images/background.png');
   background-size: cover;
   background-position: center center;
 }
@@ -195,13 +195,13 @@
   background-color: #ff81b9;
 
   /* 2. Use your external SVG file as a MASK */
-  mask-image: url('../assets/images/github.svg');
+  mask-image: url('/images/github.svg');
   mask-size: contain;
   mask-repeat: no-repeat;
   mask-position: center;
 
   /* For browsers that require the -webkit- prefix */
-  -webkit-mask-image: url('../assets/images/github.svg');
+  -webkit-mask-image: url('/images/github.svg');
   -webkit-mask-size: contain;
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-position: center;
