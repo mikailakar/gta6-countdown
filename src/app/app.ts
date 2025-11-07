@@ -16,7 +16,7 @@ export class App implements OnInit, OnDestroy {
 
   public announcementDate = new Date('2025-05-06T00:00:00');
 
-  public releaseDate = new Date('2026-05-26T00:00:00');
+  public releaseDate = new Date('2026-11-19T00:00:00');
 
   public timeRemaining = {
     days: '00',
